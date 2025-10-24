@@ -41,7 +41,7 @@ All data remains entirely under the shop owner’s control.
 ```mermaid
 sequenceDiagram
     actor seller as Seller
-    participant app as SellerMate APP
+    participant app as SellerMate
     participant sheets as Google Sheets
     participant drive as Google Drive
     participant etsy as Etsy APIs
