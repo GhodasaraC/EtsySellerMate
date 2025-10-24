@@ -1,6 +1,6 @@
-# 🧵 EtsySellerMate
+# 🧵 SellerMate
 
-**EtsySellerMate** is a private, non-commercial automation tool designed to simplify the product listing process for **a single Etsy shop**.
+**SellerMate** is a private, non-commercial automation tool designed to simplify the product listing process for **a single Etsy shop**.
 
 It connects securely to the Etsy API using OAuth2 and automatically creates **draft listings** based on a predefined **Google Sheets** format maintained by the shop owner.
 
@@ -12,7 +12,7 @@ This project is not intended for public or commercial distribution — it is a p
 
 Manually creating listings on Etsy can be repetitive and time-consuming when managing many products.
 
-EtsySellerMate addresses this by:
+SellerMate addresses this by:
 
 * Reading product information from a fixed Google Sheet (including title, description, price, tags, reference product ID, etc.).
 * Uploading images from Google Drive (predefined folder path).
@@ -41,7 +41,7 @@ All data remains entirely under the shop owner’s control.
 ```mermaid
 sequenceDiagram
     actor seller as Seller
-    participant app as EtsySellerMate
+    participant app as SellerMate APP
     participant sheets as Google Sheets
     participant drive as Google Drive
     participant etsy as Etsy APIs
@@ -96,9 +96,9 @@ sequenceDiagram
 
 If the current flow works as expected, the following enhancements may be added to further simplify the process:
 
-* Publish listings directly from EtsySellerMate (instead of manually).
+* Publish listings directly from SellerMate (instead of manually).
 * Support updating already published listings from the spreadsheet (price, inventory, etc.).
-* Deactivate listings directly from the spreadsheet using EtsySellerMate.
+* Deactivate listings directly from the spreadsheet using SellerMate.
 
 ---
 
@@ -128,4 +128,4 @@ Until then, this app remains **private**, **for internal use only**, and **not m
 
 ## 🧠 Author
 
-**Chetan** -- Creator of EtsySellerMate -- Dedicated to simplifying repetitive tasks for Etsy sellers through smart automation.
+**Chetan** -- Creator of SellerMate -- Dedicated to simplifying repetitive tasks for Etsy sellers through smart automation.
